@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911ad391-1a49-4ca7-9898-c7a68ff13b53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Component/ComputerMove.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Component/ComputerMove.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ColorCapture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ColorCapture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SubScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/System/Algorithm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/Algorithm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/System/ChangeTurnSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/System/ChangeTurnSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/System/ColorMapSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/ColorMapSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Authoring/ConfigAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Authoring/ConfigAuthoring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Component/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Component/Config.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/CreateMapSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/CreateMapSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/System/MovePlayerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/MovePlayerSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/System/RandomWallSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/RandomWallSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <workItem from="1689750142253" duration="1082000" />
       <workItem from="1689751853056" duration="6737000" />
       <workItem from="1689781462085" duration="385000" />
-      <workItem from="1689781875649" duration="1694000" />
+      <workItem from="1689781875649" duration="5305000" />
     </task>
     <servers />
   </component>

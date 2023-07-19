@@ -6,6 +6,7 @@ public class ConfigAuthoring : MonoBehaviour
 {
     public int numberOfSquare;
     public int numberOfWall;
+    public bool computerMove;
 
     public class ConfigBaker : Baker<ConfigAuthoring>
     {
@@ -13,7 +14,12 @@ public class ConfigAuthoring : MonoBehaviour
         {
             var entity = GetEntity(TransformUsageFlags.Dynamic);
             AddComponent(entity,
-                new Config { NumberOfSquare = authoring.numberOfSquare, NumberOfWall = authoring.numberOfWall });
+                new Config
+                {
+                    NumberOfSquare = authoring.numberOfSquare, 
+                    NumberOfWall = authoring.numberOfWall,
+                    ComputerMove = authoring.computerMove,
+                });
         }
     }
 }

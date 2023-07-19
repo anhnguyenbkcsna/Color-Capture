@@ -8,6 +8,7 @@ namespace Script.Component
     {
         public int NumberOfSquare;
         public int NumberOfWall;
+        public bool ComputerMove;
         public BatchMaterialID WallMaterial;
     }
     public enum Color

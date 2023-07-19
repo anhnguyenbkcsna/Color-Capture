@@ -47,9 +47,43 @@ namespace Script.Systems
             {
                 state.EntityManager.AddComponent<PlayerTurnTag>(player1);
             }
+            // Computer perform a move
+            if (SystemAPI.HasComponent<ComputerMove>(player))
+            {
+                foreach (var tf in SystemAPI.Query<RefRW<LocalTransform>>().WithAll<ComputerMove, PlayerTurnTag>())
+                {
+                    var upSquare = GetNextCell(tf.ValueRO.Position, Direction.Up);
+                    var leftSquare = GetNextCell(tf.ValueRO.Position, Direction.Left);
+                    var downSquare = GetNextCell(tf.ValueRO.Position, Direction.Down);
+                    var rightSquare = GetNextCell(tf.ValueRO.Position, Direction.Right);
 
+                    if (ValidMove(upSquare.x, upSquare.y, config.NumberOfSquare) && IsEmpty(upSquare, ref state, squareData.ColorMap, config.NumberOfSquare))
+                    {
+                        tf.ValueRW.Position.y += 1;
+                    }
+                    else if(ValidMove(leftSquare.x, leftSquare.y, config.NumberOfSquare) && IsEmpty(leftSquare, ref state, squareData.ColorMap, config.NumberOfSquare))
+                    {
+                        tf.ValueRW.Position.x -= 1;
+                    }
+                    else if(ValidMove(downSquare.x, downSquare.y, config.NumberOfSquare) && IsEmpty(downSquare, ref state, squareData.ColorMap, config.NumberOfSquare))
+                    {
+                        tf.ValueRW.Position.y -= 1;
+                    }
+                    else if(ValidMove(rightSquare.x, rightSquare.y, config.NumberOfSquare) && IsEmpty(rightSquare, ref state, squareData.ColorMap, config.NumberOfSquare))
+                    {
+                        tf.ValueRW.Position.x += 1;
+                    }
+                    squareData.ColorMap[(int)(tf.ValueRO.Position.y * config.NumberOfSquare + tf.ValueRO.Position.x)] = color;
+                    // Change turn
+                    entityCommandBuffer.RemoveComponent<PlayerTurnTag>(player);
+                    entityCommandBuffer.AddComponent<PlayerTurnTag>(opponent);
+                    entityCommandBuffer.AddComponent<ChangeTurnTag>(map);
+                }
+                entityCommandBuffer.Playback(state.EntityManager);
+                entityCommandBuffer.Dispose();
+            }
             // Wait until player perform a move
-            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) ||
+            else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) ||
                 Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || 
                 Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.RightArrow))
             {
@@ -75,9 +109,9 @@ namespace Script.Systems
                         }
                     }
                 }
+                entityCommandBuffer.Playback(state.EntityManager);
+                entityCommandBuffer.Dispose();
             }
-            entityCommandBuffer.Playback(state.EntityManager);
-            entityCommandBuffer.Dispose();
         }
         private bool ValidMove(float newX, float newY, int mapSize)
         {
@@ -115,8 +149,7 @@ namespace Script.Systems
             {
                 if (currentPosition.x == tf.ValueRO.Position.x && currentPosition.y == tf.ValueRO.Position.y)
                 {
-                    colorMap[(int)(tf.ValueRO.Position.y * mapSize + tf.ValueRO.Position.x)] = Color.Empty;
-                    return false;
+                    return colorMap[(int)(tf.ValueRO.Position.y * mapSize + tf.ValueRO.Position.x)] == Color.Empty;
                 }
             }
             return true;
@@ -126,11 +159,11 @@ namespace Script.Systems
             switch (direction)
             {
                 case Direction.Up:
-                    return new float3(currentPosition.x, currentPosition.y - 1, 0);
+                    return new float3(currentPosition.x, currentPosition.y + 1, 0);
                 case Direction.Left:
                     return new float3(currentPosition.x - 1, currentPosition.y, 0);
                 case Direction.Down:
-                    return new float3(currentPosition.x, currentPosition.y + 1, 0);
+                    return new float3(currentPosition.x, currentPosition.y - 1, 0);
                 case Direction.Right:
                     return new float3(currentPosition.x + 1, currentPosition.y, 0);
             }

@@ -42,6 +42,11 @@ namespace Script.Systems
                     colorMap[row * mapSize + col] = Color.Empty;
                 }
             }
+            // Add ComputerMove component to player2
+            if (config.ComputerMove)
+            {
+                state.EntityManager.AddComponent<ComputerMove>(SystemAPI.GetSingletonEntity<GreenPlayerTag>());
+            }
             // Init red square
             foreach (var tf in SystemAPI.Query<RefRO<LocalTransform>>().WithAll<RedPlayerTag>())
             {
@@ -52,6 +57,7 @@ namespace Script.Systems
             {
                 colorMap[(int)(tf.ValueRO.Position.y * mapSize + tf.ValueRO.Position.x)] = Color.Green;
             }
+            // Store NativeArray into component
             var mapEntity = SystemAPI.GetSingletonEntity<MapComponent>();
             state.EntityManager.AddComponent<SquareData>(mapEntity);
             state.EntityManager.SetComponentData(mapEntity, new SquareData

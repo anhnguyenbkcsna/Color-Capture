@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911ad391-1a49-4ca7-9898-c7a68ff13b53" name="Changes" comment="" />
+    <list default="true" id="911ad391-1a49-4ca7-9898-c7a68ff13b53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Component/ComputerMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Component/ComputerMove.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ColorCapture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ColorCapture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SubScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/Algorithm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/Algorithm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/ChangeTurnSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/ChangeTurnSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/ColorMapSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/ColorMapSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/MovePlayerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/MovePlayerSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/System/RandomWallSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/RandomWallSystem.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/Component/GreenPlayerTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/System/Algorithm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.11/Unity.Entities/EntityManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2SV7iASulszOuH8OXrfh09tGveY" />
@@ -30,7 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
@@ -92,7 +104,12 @@
       <workItem from="1689587250432" duration="6949000" />
       <workItem from="1689605439507" duration="8915000" />
       <workItem from="1689645844194" duration="10799000" />
-      <workItem from="1689665196525" duration="7690000" />
+      <workItem from="1689665196525" duration="8241000" />
+      <workItem from="1689731465483" duration="203000" />
+      <workItem from="1689750142253" duration="1082000" />
+      <workItem from="1689751853056" duration="6737000" />
+      <workItem from="1689781462085" duration="385000" />
+      <workItem from="1689781875649" duration="1694000" />
     </task>
     <servers />
   </component>

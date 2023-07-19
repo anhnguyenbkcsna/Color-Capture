@@ -25,7 +25,7 @@ namespace Script.Systems
             foreach (var (tf, materialMeshInfo, materialComponent) in 
                          SystemAPI.Query<RefRO<LocalTransform>, RefRW<MaterialMeshInfo>, RefRO<ChangeMaterialComponent>>().WithAll<Square>())
             {
-                int index = (int)(tf.ValueRO.Position.y * config.NumberOfWall + tf.ValueRO.Position.x);
+                int index = (int)(tf.ValueRO.Position.y * config.NumberOfSquare + tf.ValueRO.Position.x);
                 if (squareData.ColorMap[index] != Color.Empty)
                 {
                     if (squareData.ColorMap[index] == Color.Wall)

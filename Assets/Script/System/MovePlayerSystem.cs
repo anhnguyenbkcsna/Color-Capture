@@ -1,9 +1,12 @@
-﻿using Script.Component;
+﻿using System;
+using System.Data;
+using Script.Component;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using Color = Script.Component.Color;
 
 namespace Script.Systems
@@ -74,6 +77,7 @@ namespace Script.Systems
                         tf.ValueRW.Position.x += 1;
                     }
                     squareData.ColorMap[(int)(tf.ValueRO.Position.y * config.NumberOfSquare + tf.ValueRO.Position.x)] = color;
+                    squareData.MapPoint[(int)(tf.ValueRO.Position.y * config.NumberOfSquare + tf.ValueRO.Position.x)] = 0;
                     // Change turn
                     entityCommandBuffer.RemoveComponent<PlayerTurnTag>(player);
                     entityCommandBuffer.AddComponent<PlayerTurnTag>(opponent);
@@ -102,6 +106,7 @@ namespace Script.Systems
                             tf.ValueRW.Position.x += horizontalInput * 1;
                             tf.ValueRW.Position.y += verticalInput * 1;
                             squareData.ColorMap[index] = color;
+                            squareData.MapPoint[(int)(tf.ValueRO.Position.y * config.NumberOfSquare + tf.ValueRO.Position.x)] = 0;
                             // Change turn
                             entityCommandBuffer.RemoveComponent<PlayerTurnTag>(player);
                             entityCommandBuffer.AddComponent<PlayerTurnTag>(opponent);
@@ -168,6 +173,102 @@ namespace Script.Systems
                     return new float3(currentPosition.x + 1, currentPosition.y, 0);
             }
             return currentPosition;
+        }
+        // Minimax algorithm
+        private int Score(NativeArray<int> mapPoint, float3 currentPosition, int mapSize)
+        {
+            return mapPoint[(int)(currentPosition.y * mapSize + currentPosition.x)];
+        }
+        public int Minimax(NativeArray<Color> colorMap, NativeArray<int> mapPoint, float3 currentPosition, int depth, int mapSize, bool isMax, ref SystemState state)
+        {
+            if (mapPoint[(int)(currentPosition.y * mapSize + currentPosition.x)] == 0) // Wall
+            {
+                return -1;
+            }
+            if (depth == 0)
+            {
+                return Score(mapPoint, currentPosition, mapSize);
+            }
+
+            if (isMax)
+            {
+                var maxVal = -999;
+                var upSquare = GetNextCell(currentPosition, Direction.Up);
+                var leftSquare = GetNextCell(currentPosition, Direction.Left);
+                var downSquare = GetNextCell(currentPosition, Direction.Down);
+                var rightSquare = GetNextCell(currentPosition, Direction.Right);
+                if (ValidMove(upSquare.x, upSquare.y, mapSize) && IsEmpty(upSquare, ref state, colorMap, mapSize))
+                {
+                    var upVal = Minimax(colorMap, mapPoint, upSquare, depth - 1, mapSize, false, ref state);
+                    if(upVal > maxVal){
+                        maxVal = upVal;
+                    }
+                }
+                if(ValidMove(leftSquare.x, leftSquare.y, mapSize) && IsEmpty(leftSquare, ref state, colorMap, mapSize))
+                {
+                    var leftVal = Minimax(colorMap, mapPoint, leftSquare, depth - 1, mapSize, false, ref state);
+                    if(leftVal > maxVal){
+                        maxVal = leftVal;
+                    }
+                }
+                if(ValidMove(downSquare.x, downSquare.y, mapSize) && IsEmpty(downSquare, ref state, colorMap, mapSize))
+                {
+                    var downVal = Minimax(colorMap, mapPoint, downSquare, depth - 1, mapSize, false, ref state);
+                    if(downVal > maxVal){
+                        maxVal = downVal;
+                    }
+                } 
+                if(ValidMove(rightSquare.x, rightSquare.y, mapSize) && IsEmpty(rightSquare, ref state, colorMap, mapSize))
+                {
+                    var rightVal = Minimax(colorMap, mapPoint, rightSquare, depth - 1, mapSize, false, ref state);
+                    if(rightVal > maxVal){
+                        maxVal = rightVal;
+                    }
+                }
+                return maxVal;
+            }
+            else
+            {
+                var minVal = 999;
+                var upSquare = GetNextCell(currentPosition, Direction.Up);
+                var leftSquare = GetNextCell(currentPosition, Direction.Left);
+                var downSquare = GetNextCell(currentPosition, Direction.Down);
+                var rightSquare = GetNextCell(currentPosition, Direction.Right);
+                if (ValidMove(upSquare.x, upSquare.y, mapSize) && IsEmpty(upSquare, ref state, colorMap, mapSize))
+                {
+                    var upVal = Minimax(colorMap, mapPoint, upSquare, depth - 1, mapSize, true, ref state);
+                    if (upVal < minVal)
+                    {
+                        minVal = upVal;
+                    }
+                }
+                if(ValidMove(leftSquare.x, leftSquare.y, mapSize) && IsEmpty(leftSquare, ref state, colorMap, mapSize))
+                {
+                    var leftVal = Minimax(colorMap, mapPoint, leftSquare, depth - 1, mapSize, true, ref state);
+                    if (leftVal < minVal)
+                    {
+                        minVal = leftVal;
+                    }
+                }
+                if(ValidMove(downSquare.x, downSquare.y, mapSize) && IsEmpty(downSquare, ref state, colorMap, mapSize))
+                {
+                    var downVal = Minimax(colorMap, mapPoint, downSquare, depth - 1, mapSize, true, ref state);
+                    if (downVal < minVal)
+                    {
+                        minVal = downVal;
+                    }
+                } 
+                if(ValidMove(rightSquare.x, rightSquare.y, mapSize) && IsEmpty(rightSquare, ref state, colorMap, mapSize))
+                {
+                    var rightVal = Minimax(colorMap, mapPoint, rightSquare, depth - 1, mapSize, true, ref state);
+                    if (rightVal < minVal)
+                    {
+                        minVal = rightVal;
+                    }
+                }
+
+                return minVal;
+            }
         }
     }
 }

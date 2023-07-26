@@ -1,4 +1,5 @@
-﻿using Script.Component;
+﻿using System.Data;
+using Script.Component;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -25,9 +26,37 @@ namespace Script.Systems
             int mapSize = config.NumberOfSquare;
             
             var colorMap = new NativeArray<Color>(mapSize * mapSize, Allocator.Persistent);
+            var mapPoint = new NativeArray<int>(mapSize * mapSize, Allocator.Persistent);
             
             Entity squareEntity = map.SquarePrefab;
             
+            #region Evaluate the square point 
+            // Example of 5 squares map point
+            // 1 1 1 1 1
+            // 1 2 2 2 1
+            // 1 2 3 2 1
+            // 1 2 2 2 1
+            // 1 1 1 1 1
+            var temp = 0;
+            var loop = Mathf.CeilToInt(mapSize / 2);
+            for (int row = 0; row < loop; row += 1)
+            {
+                for (int col = 0; col < loop; col += 1)
+                {
+                    if (temp < row + 1)
+                    {
+                        temp += 1;
+                    }
+                    mapPoint[row * mapSize + col] = temp; // Create a quarter of square
+                    // Copy value to other quarter
+                    mapPoint[row * mapSize + mapSize - 1 - col] = temp;
+                    mapPoint[(mapSize - 1 - row) * mapSize + col] = temp;
+                    mapPoint[(mapSize - 1 - row) * mapSize + mapSize - 1 - col] = temp;
+                }
+                temp = 0;
+            }
+            #endregion
+
             for (int row = 0; row < mapSize; row++)
             {
                 for (int col = 0; col < mapSize; col++)
@@ -40,6 +69,7 @@ namespace Script.Systems
                         Rotation = Quaternion.identity
                     });
                     colorMap[row * mapSize + col] = Color.Empty;
+                    mapPoint[row * mapSize + col] = 0;
                 }
             }
             // Add ComputerMove component to player2
@@ -63,7 +93,7 @@ namespace Script.Systems
             state.EntityManager.SetComponentData(mapEntity, new SquareData
             {
                 ColorMap = colorMap,
-                // Size = mapSize
+                MapPoint = mapPoint,
             });
         }
 

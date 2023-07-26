@@ -5,11 +5,1095 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911ad391-1a49-4ca7-9898-c7a68ff13b53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Prefabs/BootstrapPlayer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Prefabs/BootstrapPlayer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scenes/Bootstrap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scenes/Bootstrap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts/Bootstrap.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts/Bootstrap.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts/BootstrapManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts/BootstrapManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts/BootstrapPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Netcode for GameObjects/1.5.1/Bootstrap/Scripts/BootstrapPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Network.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Network/ChatManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Network/ChatManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Network/NetworkManage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Network/NetworkManage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Network/RpcTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/.signature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/CHANGELOG.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/HalfVector3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/HalfVector3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/HalfVector4.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/HalfVector4.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/Interpolator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/Interpolator/BufferedLinearInterpolator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/Interpolator/BufferedLinearInterpolator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkDeltaPosition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkRigidbody.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkRigidbody.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkRigidbody2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkRigidbody2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/NetworkTransform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/QuaternionCompressor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/QuaternionCompressor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/com.unity.netcode.components.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Components/com.unity.netcode.components.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Documentation~/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/CodeGenHelpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/CodeGenHelpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/INetworkMessageILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/INetworkMessageILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/INetworkSerializableILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/INetworkSerializableILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/NetworkBehaviourILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/NetworkBehaviourILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/PostProcessorAssemblyResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/PostProcessorAssemblyResolver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/PostProcessorReflectionImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/PostProcessorReflectionImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/PostProcessorReflectionImporterProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/PostProcessorReflectionImporterProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/RuntimeAccessModifiersILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/RuntimeAccessModifiersILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/com.unity.netcode.editor.codegen.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/CodeGen/com.unity.netcode.editor.codegen.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetcodeForGameObjectsProjectSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetcodeForGameObjectsProjectSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetcodeForGameObjectsSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetcodeForGameObjectsSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetcodeSettingsProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetcodeSettingsProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetworkPrefabProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetworkPrefabProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetworkPrefabsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/Configuration/NetworkPrefabsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/HiddenScriptEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/HiddenScriptEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkBehaviourEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkBehaviourEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkManagerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkManagerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkManagerHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkManagerHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkObjectEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkObjectEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkTransformEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/NetworkTransformEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/PackageChecker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/PackageChecker/UTPAdapterChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/PackageChecker/UTPAdapterChecker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/PackageChecker/com.unity.netcode.editor.packagechecker.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/PackageChecker/com.unity.netcode.editor.packagechecker.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/com.unity.netcode.editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Editor/com.unity.netcode.editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/HashSize.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/HashSize.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkPrefab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkPrefab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkPrefabs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkPrefabs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkPrefabsList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Configuration/NetworkPrefabsList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection/NetworkClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection/NetworkClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection/NetworkConnectionManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection/NetworkConnectionManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection/PendingClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Connection/PendingClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/ComponentFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/ComponentFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkBehaviourUpdater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkBehaviourUpdater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkUpdateLoop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Core/NetworkUpdateLoop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/InvalidParentException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/InvalidParentException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/NetworkConfigurationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/NetworkConfigurationException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/NotListeningException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/NotListeningException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/NotServerException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/NotServerException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/SpawnStateException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/SpawnStateException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/VisibilityChangeException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Exceptions/VisibilityChangeException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Hashing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Hashing/XXHash.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Hashing/XXHash.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Logging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Logging/LogLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Logging/LogLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Logging/NetworkLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Logging/NetworkLog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/CustomMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/CustomMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/DefaultMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/DefaultMessageSender.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/DeferredMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/DeferredMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/DisconnectReasonMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/DisconnectReasonMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/IDeferredNetworkMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/IDeferredNetworkMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/ILPPMessageProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/ILPPMessageProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkMessageProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkMessageProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/INetworkMessageSender.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ChangeOwnershipMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ChangeOwnershipMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ConnectionRequestMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ConnectionRequestMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/CreateObjectMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/CreateObjectMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/DestroyObjectMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/DestroyObjectMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/MessageMetadata.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/MessageMetadata.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/NamedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/NamedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/NetworkVariableDeltaMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/NetworkVariableDeltaMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ParentSyncMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ParentSyncMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/RpcMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/RpcMessages.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/SceneEventMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/SceneEventMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ServerLogMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/ServerLogMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/TimeSyncMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/TimeSyncMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/UnnamedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/Messages/UnnamedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkBatchHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkBatchHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkManagerHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkManagerHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkMessageHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkMessageHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/NetworkMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/RpcAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/RpcAttributes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/RpcParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Messaging/RpcParams.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/INetworkMetrics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/INetworkMetrics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/MetricHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/MetricHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NetworkMetrics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NetworkMetrics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NetworkMetricsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NetworkMetricsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NetworkObjectProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NetworkObjectProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NullNetworkMetrics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Metrics/NullNetworkMetrics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/Collections.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/Collections/NetworkList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/Collections/NetworkList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariableBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariableBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariablePermission.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariablePermission.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariableSerialization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/NetworkVariable/NetworkVariableSerialization.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Profiling.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Profiling/ProfilingHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Profiling/ProfilingHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/DefaultSceneManagerHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/DefaultSceneManagerHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/ISceneManagerHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/ISceneManagerHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/NetworkSceneManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/NetworkSceneManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/SceneEventData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/SceneEventData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/SceneEventProgress.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/SceneManagement/SceneEventProgress.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/Arithmetic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/Arithmetic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BitCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BitCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BitReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BitReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BitWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BitWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BufferSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BufferSerializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BufferSerializerReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BufferSerializerReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BufferSerializerWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BufferSerializerWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BytePacker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/BytePacker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/ByteUnpacker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/ByteUnpacker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/ByteUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/ByteUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/FastBufferReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/FastBufferReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/FastBufferWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/FastBufferWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/ForceNetworkSerializeByMemcpy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/ForceNetworkSerializeByMemcpy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/INetworkSerializable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/INetworkSerializable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/INetworkSerializeByMemcpy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/INetworkSerializeByMemcpy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/IReaderWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/IReaderWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/MemoryStructures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/MemoryStructures/ByteBool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/MemoryStructures/ByteBool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/MemoryStructures/UIntFloat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/MemoryStructures/UIntFloat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/NetworkBehaviourReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/NetworkBehaviourReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/NetworkObjectReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Serialization/NetworkObjectReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning/NetworkPrefabHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning/NetworkPrefabHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning/NetworkSpawnManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning/NetworkSpawnManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning/ReleasedNetworkId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Spawning/ReleasedNetworkId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/IRealTimeProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/IRealTimeProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/NetworkTickSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/NetworkTickSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/NetworkTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/NetworkTime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/NetworkTimeSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/NetworkTimeSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/RealTimeProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Timing/RealTimeProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/NetworkDelivery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/NetworkDelivery.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/NetworkEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/NetworkEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/NetworkTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/NetworkTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UNET.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UNET/UNetTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UNET/UNetTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/BatchedReceiveQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/BatchedReceiveQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/BatchedSendQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/BatchedSendQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/NetworkMetricsContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/NetworkMetricsContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/NetworkMetricsPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/NetworkMetricsPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/SecretsLoaderHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/SecretsLoaderHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/UnityTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/Transports/UTP/UnityTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/com.unity.netcode.runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Runtime/com.unity.netcode.runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Prefabs/BootstrapPlayer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Prefabs/BootstrapPlayer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scenes/Bootstrap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scenes/Bootstrap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts/Bootstrap.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts/Bootstrap.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts/BootstrapManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts/BootstrapManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts/BootstrapPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/Samples~/Bootstrap/Scripts/BootstrapPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Components/ObjectNameIdentifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Components/ObjectNameIdentifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/ConditionalPredicate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/ConditionalPredicate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/DebugNetworkHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/DebugNetworkHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/IntegrationTestSceneHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/IntegrationTestSceneHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/IntegrationTestWithApproximation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/IntegrationTestWithApproximation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MessageHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MessageHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MessageHooksConditional.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MessageHooksConditional.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/MetricTestBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/MetricTestBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/NetworkVariableComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/NetworkVariableComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/RpcTestComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/RpcTestComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForCounterMetricValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForCounterMetricValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForEventMetricValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForEventMetricValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForGaugeMetricValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForGaugeMetricValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForMetricValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/Metrics/WaitForMetricValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MockTimeProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MockTimeProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MockTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/MockTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetcodeIntegrationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetcodeIntegrationTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetcodeIntegrationTestHelpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetcodeIntegrationTestHelpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetcodeLogAssert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetcodeLogAssert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetworkManagerHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetworkManagerHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetworkVariableHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/NetworkVariableHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/TimeoutHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/TimeoutHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/com.unity.netcode.testhelpers.runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/TestHelpers/Runtime/com.unity.netcode.testhelpers.runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.netcode.gameobjects@1.5.1/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/.buginfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/.signature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Analyzers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Analyzers/Unity.Transport.Analyzers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Analyzers/Unity.Transport.Analyzers.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/CHANGELOG.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/DESIGN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/DESIGN.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Documentation~/filter.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Documentation~/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Editor/RoslynAnalyzerFix.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Editor/RoslynAnalyzerFix.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Editor/Unity.Networking.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Editor/Unity.Networking.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/AtomicFreeList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/AtomicFreeList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Base64.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Base64.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/BaselibNetworkArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/BaselibNetworkArray.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/BaselibNetworkInterface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/BaselibNetworkInterface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/DataStream.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/DataStream.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/HMACSHA256.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/HMACSHA256.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/INetworkInterface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/INetworkInterface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/IPCManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/IPCManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/IPCNetworkInterface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/IPCNetworkInterface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkCompressionModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkCompressionModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkConnection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkConnection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkDriver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkDriver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkEndPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkEndPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkEventQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkEventQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkParams.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkPipeline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkPipeline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkProtocol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkProtocol.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkProtocols.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkProtocols.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/NetworkSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/FragmentationPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/FragmentationPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/FragmentationUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/FragmentationUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/NullPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/NullPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/ReliableSequencedPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/ReliableSequencedPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/ReliableUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/ReliableUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/SimulatorPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/SimulatorPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/SimulatorUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/SimulatorUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/UnreliableSequencedPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Pipelines/UnreliableSequencedPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageAccepted.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageAccepted.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageBind.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageBind.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageConnectRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageConnectRequest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageDisconnect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageDisconnect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageError.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageError.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessagePing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessagePing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageRelay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/Messages/RelayMessageRelay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/NetworkDriverRelayExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/NetworkDriverRelayExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayAllocationId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayAllocationId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayConnectionData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayConnectionData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayConnectionStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayConnectionStatus.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayHMACKey.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayHMACKey.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayNetworkProtocol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayNetworkProtocol.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayServerData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Relay/RelayServerData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SHA256.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SHA256.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SecureProtocol.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SecureProtocol/SecureNetworkProtocol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SecureProtocol/SecureNetworkProtocol.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SecureProtocol/SecureParameters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SecureProtocol/SecureParameters.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SessionIdToken.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/SessionIdToken.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/TransportFunctionPointer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/TransportFunctionPointer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Unity.Networking.Transport.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Unity.Networking.Transport.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/UnityTransportProtocol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/UnityTransportProtocol.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Utilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Runtime/Utilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scenes/CustomNetworkInterface.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scenes/CustomNetworkInterface.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/Bindings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/Bindings/network.bindings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/Bindings/network.bindings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/CustomNetworkInterface.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/CustomNetworkInterface.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/CustomNetworkInterfaceConnect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/CustomNetworkInterfaceConnect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/UDPNetworkInterface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/UDPNetworkInterface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/shell.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/android_armv7_libnetwork.bindings.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/driver/driver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/driver/driver.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/driver/driver.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/libnetwork.bindings.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/android.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/android_arm64_libnetwork.bindings.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/android_armv7_libnetwork.bindings.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/android_x86_libnetwork.bindings.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/arm64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/armv7.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/ios.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/network.bindings.c.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/network.bindings.h.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/platform.h.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/meta/x86.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/network.bindings.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/CustomNetworkInterface/Scripts/network.bindings~/source/platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/Ping.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/Ping.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/PingClient.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/PingClient.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/PingMainThread.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/PingMainThread.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/PingServer.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scenes/PingServer.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/Ping.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/Ping.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingClientBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingClientBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingClientUIBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingClientUIBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingMainThreadClientBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingMainThreadClientBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingMainThreadServerBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingMainThreadServerBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingServerBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Ping/Scripts/PingServerBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scenes/Pipeline.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scenes/Pipeline.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts/ClientBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts/ClientBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts/Pipeline.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts/Pipeline.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts/ServerBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Pipeline/Scripts/ServerBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/Code.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/Code.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/PingClientBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/PingClientBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/PingClientUIBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/PingClientUIBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/PingServerBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/RelayPing/Scripts/PingServerBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scenes/Soaker.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scenes/Soaker.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClientBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClientBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClientJobManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClientJobManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClientJobs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakClientJobs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakCommon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakCommon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakServer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakServer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakServerBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakServerBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakServerJobs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakServerJobs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakStatisticsReporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/SoakStatisticsReporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/Soaker.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Samples~/Soaker/Scripts/Soaker.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Base64Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Base64Tests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/BeginEndSendTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/BeginEndSendTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/DataStreamTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/DataStreamTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/FragmentationPipelineTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/FragmentationPipelineTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/HMACSHA256Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/HMACSHA256Tests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkAddressTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkAddressTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkConnectionUnitTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkConnectionUnitTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkDriverLoadTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkDriverLoadTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkDriverUnitTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkDriverUnitTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkEventQueueTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkEventQueueTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkHostUnitTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkHostUnitTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkJobTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkJobTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkParamsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkParamsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkPipelineTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkPipelineTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkProtocolsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/NetworkProtocolsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/RelayNetworkDriverTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/RelayNetworkDriverTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/ReliablePipelineTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/ReliablePipelineTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/TransportErrorValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/TransportErrorValidation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Unity.Networking.Transport.EditorTests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Unity.Networking.Transport.EditorTests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Utilities/RelayServerMock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Utilities/RelayServerMock.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Utilities/UDPSocketMock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/Utilities/UDPSocketMock.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/UtilitiesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Editor/UtilitiesTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/BaselibNetworkInterfaceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/BaselibNetworkInterfaceTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/ConnectDisconnectTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/ConnectDisconnectTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/DisconnectTimeoutTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/DisconnectTimeoutTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/NetworkSettingsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/NetworkSettingsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/SecureProtocolTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/SecureProtocolTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/SendMessageTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/SendMessageTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Unity.Networking.Transport.RuntimeTests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Unity.Networking.Transport.RuntimeTests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Utilities/CommonUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Utilities/CommonUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Utilities/SecureTestParameters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/Tests/Runtime/Utilities/SecureTestParameters.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/ValidationExceptions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/ValidationExceptions.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.unity.transport@1.3.4/package.json.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ColorCapture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ColorCapture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Authoring/ConfigAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Authoring/ConfigAuthoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Component/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Component/Config.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/SubScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Component/SquareData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Component/SquareData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/System/CreateMapSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/CreateMapSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/System/MovePlayerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/System/MovePlayerSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EntitiesClientSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EntitiesClientSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +1107,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Component/GreenPlayerTag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/System/Algorithm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.11/Unity.Entities/EntityManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.transport@1.3.4/Runtime/IPCManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2SV7iASulszOuH8OXrfh09tGveY" />
   <component name="ProjectLevelVcsManager">
@@ -34,6 +1122,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -48,6 +1137,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\ColorCapture.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Unity\ColorCapture\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Unity\ColorCapture -debugCodeOptimization" />
@@ -105,12 +1202,17 @@
       <workItem from="1689751853056" duration="6737000" />
       <workItem from="1689781462085" duration="385000" />
       <workItem from="1689781875649" duration="5305000" />
+      <workItem from="1690206577435" duration="5337000" />
+      <workItem from="1690250108384" duration="2680000" />
+      <workItem from="1690270821590" duration="7016000" />
+      <workItem from="1690329218115" duration="14240000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

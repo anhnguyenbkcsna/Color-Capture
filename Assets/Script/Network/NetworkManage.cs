@@ -15,6 +15,13 @@ namespace Network
             {
                 StartButtons();
             }
+
+            if (NetworkManager.Singleton.IsServer || NetworkManager.Singleton.IsClient)
+            {
+                // Spawn map
+                GUILayout.Button("Test button");
+            }
+
             GUILayout.EndArea();
         }
 

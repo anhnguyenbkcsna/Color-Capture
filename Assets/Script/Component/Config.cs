@@ -25,5 +25,6 @@ namespace Script.Component
         Left = 1,
         Down = 2,
         Right = 3,
+        None = 4,
     }
 }
